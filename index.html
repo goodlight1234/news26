@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>시노펙스 뉴스</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap');
+
+        body {
+            font-family: 'Noto Sans KR', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f8f8f8;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .header {
+            padding-bottom: 20px;
+            border-bottom: 2px solid #ddd;
+            margin-bottom: 30px;
+            text-align: left;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            font-weight: 700;
+            color: #1a1a1a;
+            margin: 0;
+        }
+
+        .meta-info {
+            font-size: 1.1em;
+            color: #555;
+            margin-top: 10px;
+        }
+
+        .content h2 {
+            font-size: 1.8em;
+            color: #004085;
+            margin-top: 30px;
+            margin-bottom: 15px;
+        }
+
+        .content h3 {
+            font-size: 1.4em;
+            font-weight: 700;
+            color: #0056b3;
+            margin-top: 25px;
+            margin-bottom: 15px;
+            border-left: 4px solid #007bff;
+            padding-left: 10px;
+        }
+
+        .content p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+
+        ul {
+            list-style-type: disc;
+            padding-left: 25px;
+            margin-bottom: 20px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        .quote {
+            background-color: #f0f8ff;
+            border-left: 4px solid #007bff;
+            padding: 20px;
+            margin: 20px 0;
+            font-style: italic;
+            color: #444;
+            border-radius: 4px;
+        }
+
+        .quote p {
+            margin: 0;
+            text-align: justify;
+        }
+
+        .quote-author {
+            text-align: right;
+            font-style: normal;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        .highlight-box {
+            background-color: #e6f7ff;
+            border: 1px solid #b3e0ff;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        
+        .highlight-box p {
+            margin: 0;
+        }
+
+        .strong-highlight {
+            font-weight: bold;
+            color: #007bff;
+        }
+
+        .article-image {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        /* Post Navigation Styles */
+        .post-navigation {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+        }
+
+        .post-link {
+            display: flex;
+            align-items: center;
+            padding: 10px 15px;
+            background-color: #f0f0f0;
+            border-radius: 6px;
+            text-decoration: none;
+            color: #333;
+            font-size: 0.95em;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        .post-link:hover {
+            background-color: #e0e0e0;
+            color: #007bff;
+        }
+
+        .post-link .arrow {
+            font-size: 1.2em;
+            color: #007bff;
+            margin: 0 10px;
+            font-weight: bold;
+        }
+
+        .post-link.prev {
+            justify-content: flex-start;
+        }
+
+        .post-link.next {
+            justify-content: flex-end;
+        }
+
+        .post-link.prev .arrow {
+            transform: none;
+            margin-left: -5px;
+        }
+
+        .post-link.next .arrow {
+            transform: none;
+            margin-right: -5px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="header">
+        <h1>시노펙스, KSN-IAC 2025에서 혈액여과기 임상시험 결과 발표!</h1>
+        <p class="meta-info">시노펙스 ・ 6시간 전</p>
+    </div>
+
+    <div class="content">
+        <h2>대한신장학회 통합학술대회(KSN-IAC 2025)에서 임상시험 결과 공식 발표</h2>
+        <ul>
+            <li>대한신장학회가 주최하는 국내 최고 권위 학술대회</li>
+            <li>의대 교수, 전문의, 간호사 등 약 600여 명 참가</li>
+            <li>인제대 상계백병원 김성근 교수가 국산화 혈액여과기 임상결과 발표</li>
+        </ul>
+
+        <p>대한신장학회가 주최하는 국내 최대 통합학술대회(KSN-IAC 2025)에서 시노펙스 국산화 혈액여과기(SynofluxⓇ)의 성능이 공식 발표됩니다.</p>
+        
+        <p>이는 지난 6월 SCI급 국제 학술지인 ‘Kidney Research and Clinical Practice’에 논문이 게재된 이후 공식적인 학술대회를 통해 학계 및 병의원 관계자에게 임상시험 결과를 바탕으로 성능이 발표되는 것으로, 국산화 혈액여과기의 국내 시장 진입이 확대되는 계기가 될 전망입니다.</p>
+        
+        <p>이번 통합학술대회(KSN-IAC 2025)는 대구 엑스코(EXCO)에서 9월 13일부터 14일까지 양일간 개최되며, 의과대학 교수, 전문의, 간호사 등 약 600여 명이 참가할 예정입니다.</p>
+
+        <h3>주요 세션 발표 내용</h3>
+        <p>특히, 이번 학술대회에서 **재택혈액투석 연구회**와 **대한신장학회**의 런천 심포지엄(Luncheon Symposium)을 통해 시노펙스의 제품과 기술이 공개될 예정입니다.</p>
+        
+        <ul>
+            <li>**재택혈액투석 연구회 세션**: 서울의대 김동기 교수, 울산의대 유경돈 교수가 좌장을 맡고 인제대 상계백병원 김성근 교수가 ‘국산 혈액투석 제품 개발 현황과 향후 과제’를 주제로 시노펙스 제품과 개발 현황을 설명할 계획입니다.</li>
+            <li>**대한신장학회 런천 심포지엄**: 임상시험의 연구 책임자인 서울대병원 김동기 교수가 좌장을 맡고, 주요 연구자인 인제대 상계백병원 김성근 교수가 ‘국산 PES 혈액여과기의 임상적 유효성과 안전성’을 주제로 임상 테스트 내용과 성능을 연구자들이 직접 공식 발표합니다.</li>
+        </ul>
+        
+        <p>이 심포지엄에서는 5개 상급병원에서 진행된 시노펙스 혈액여과기(SynofluxⓇ)와 독일의 최신 제품과의 성능 비교 임상 테스트 결과가 공개됩니다.</p>
+        
+        <div class="quote">
+            <p>시노펙스 인공신장사업부 이진태 본부장은 “국내 최고 권위 공식 학술대회를 통해 국산화 혈액여과기의 성능을 실질적으로 제품을 사용하는 의료진에게 임상시험에 참여한 연구진들이 직접 알리는 계기가 되었다”고 이번 행사의 의미를 설명했습니다.</p>
+        </div>
+        
+        <p>또한, "14일 세종대학교 광개토관에서 개최되는 대한투석협회 추계 심포지엄에도 시노펙스의 제품을 전시하여 국산화 혈액여과기의 성능과 제품을 알리기 위한 노력을 계속하고 있다"고 밝혔습니다.</p>
+        
+        <p>혈액여과기는 연간 약 2,400만 개가 수입되고 있으며, 국내 유일의 혈액여과기 국산화 기업인 시노펙스는 식약처의 품목 허가를 획득하고 환자의 혈액투석 환경에 알맞은 제품의 병원 공급을 확대해 나가고 있습니다.</p>
+    </div>
+
+    <div class="post-navigation">
+        <a href="#" class="post-link prev"><span class="arrow">▲</span> 이전글 시노펙스, 日 국제학회에서 혈액투석 제품 및 임상 결과 소개!</a>
+        <a href="#" class="post-link next">다음글 시노펙스, AI 플랫폼 ‘넥스케어’ 서비스로 여행투석 시대 개막! <span class="arrow">▼</span></a>
+    </div>
+
+</div>
+
+</body>
+</html>
